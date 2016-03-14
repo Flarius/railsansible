@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     @user = User.new
     existe = User.first
     if (existe != nil )
-      redirect_to  "http://www.rubyonrails.org"
+      redirect_to  :controller => "inventory", :action => "inventario"
     end    
   end
 

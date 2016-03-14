@@ -1,2 +1,14 @@
-<h1>Inventory#inventario</h1>
-<p>Find me in app/views/inventory/inventario.html.erb</p>
+<h1>Bienvenido al sistema de control de configuración e infraestructura</h1>
+<h2>Configurando inventario...</h2>
+<h3>Introduzca la información del inventario</h3>
+<%= form_tag() do %>
+  <%= label_tag(:q, "Nombre del inventario") %>
+  <br>
+  <%= text_field_tag(:q) %>
+  <br>
+  <%= label_tag(:p, "Repositorio de Versiones") %>
+  <br>
+  <%= text_field_tag(:p) %>
+  <br>
+  <%= submit_tag("Comprobar") %>
+<% end %>
