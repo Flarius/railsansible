@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     @user = User.new
     existe = User.first
     if (existe != nil )
-      redirect_to  :controller => "inventory", :action => "inventario"
+      redirect_to  :controller => "hosts", :action => "new"
     end    
   end
 
