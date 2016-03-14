@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'inventory/inventario'
+
   resources :users
   get 'home/index'
 
