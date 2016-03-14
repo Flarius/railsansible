@@ -14,3 +14,18 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$('document').ready(function(){
+	controlar ();	
+});
+
+function controlar () {
+	// body...
+	$(".passControl").keyup(function ( event ) {   
+	   if ($("#user_pass").val() == $(".passControl").val()){
+	      $("#botonControl").prop('disabled', false);
+	   }
+	   else{
+	   	  $("#botonControl").prop('disabled', true);	
+	   }		
+	});
+}

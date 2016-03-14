@@ -12,14 +12,19 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :user %><br>
-    <%= f.text_field :user %>
+    <%= f.label :usuario %><br>
+    <%= f.text_field :user, :required => true, :placeholder => 'ingrese un usuario' %>
   </div>
   <div class="field">
-    <%= f.label :pass %><br>
-    <%= f.text_field :pass %>
+    <%= f.label :contraseña %><br>
+    <%= f.password_field :pass, :required => true, :placeholder => 'ingrese una contraseña'  %>
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <div class="field">
+    <%= f.label ("repetir contraseña") %><br>
+    <%= f.password_field :pass, :required => true, :class => 'passControl', :placeholder => 'repita su contraseña'%>
+  </div>  
+
+   <div class="field">
+     <%= f.submit :crear, :id => 'botonControl', :disabled => 'true' %> 
+   </div> 
 <% end %>

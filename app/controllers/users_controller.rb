@@ -15,6 +15,10 @@ class UsersController < ApplicationController
   # GET /users/new
   def new
     @user = User.new
+    existe = User.first
+    if (existe != nil )
+      redirect_to  "http://www.rubyonrails.org"
+    end    
   end
 
   # GET /users/1/edit
