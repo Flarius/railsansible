@@ -11,4 +11,11 @@
   <%= text_field_tag(:p) %>
   <br>
   <%= submit_tag("Comprobar") %>
+  <br>
+  <h3>Host de Ejecución</h3>
+  <p> Otro Host
+   <%= radio_button_tag :host,  "este_host" %>  </p>
+  <p> Este Host <%= radio_button_tag :host,  "otro_host" %>  </p>
+  <br>
+  <%= submit_tag("Siguiente") %>
 <% end %>
