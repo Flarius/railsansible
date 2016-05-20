@@ -10,15 +10,12 @@ class HostsController < ApplicationController
   # GET /hosts/1
   # GET /hosts/1.json
   def show
+    
   end
 
   # GET /hosts/new
   def new
     @host = Host.new
-    existe = Host.first
-    if (existe != nil)
-      redirect_to :controller => "inventory", :action => "inventario"
-    end  
   end
   # GET /hosts/1/edit
   def edit

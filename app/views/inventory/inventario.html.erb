@@ -1,7 +1,8 @@
 <h1>Bienvenido al sistema de control de configuración e infraestructura</h1>
 <h2>Configurando inventario...</h2>
 <h3>Introduzca la información del inventario</h3>
-<%= form_tag() do %>
+
+ <%= form_tag({controller: "inventory", action: "verificarHost"}, method: "POST") do %>
   <%= label_tag(:q, "Nombre del inventario") %>
   <br>
   <%= text_field_tag(:q) %>
@@ -14,8 +15,9 @@
   <br>
   <h3>Host de Ejecución</h3>
   <p> Otro Host
-   <%= radio_button_tag :host,  "este_host" %>  </p>
-  <p> Este Host <%= radio_button_tag :host,  "otro_host" %>  </p>
+   <%= radio_button_tag :host,  "otro_host", :checked => true %>  </p>
+  <p> Este Host <%= radio_button_tag :host,  "este_host" %>  </p>
   <br>
   <%= submit_tag("Siguiente") %>
-<% end %>
+ <% end %> 
+
