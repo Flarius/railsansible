@@ -1,0 +1,41 @@
+[33mcommit 89cc5f815736f2a58db5a73070f13b1e6e2eecf1[m
+Author: pedro <pedro.gc01@gmail.com>
+Date:   Mon Mar 14 19:13:36 2016 -0300
+
+    interfas de host modificada
+
+[33mcommit 41ef93a9aea1e365fbe33de1b67f3b9678375f97[m
+Author: pedro <pedro.gc01@gmail.com>
+Date:   Mon Mar 14 18:59:40 2016 -0300
+
+    scaffold de host generado
+
+[33mcommit c879096c482b7987048e2699493065fcd6cd80e6[m
+Author: pedro <pedro.gc01@gmail.com>
+Date:   Mon Mar 14 18:28:47 2016 -0300
+
+    pantalla de inventario preparada
+
+[33mcommit c09f2e3655d1ef5e04b465ba63a8aa8762260afd[m
+Author: pedro <pedro.gc01@gmail.com>
+Date:   Mon Mar 14 18:02:10 2016 -0300
+
+    controlador de inventario generado
+
+[33mcommit 109a3335fc2078d4e4cb12965d1281f7a5a35a1b[m
+Author: pedro <pedro.gc01@gmail.com>
+Date:   Mon Mar 14 11:19:00 2016 -0300
+
+    lista la func para credenciales de user
+
+[33mcommit 569474b38b8052b9de1e7b662b3abcd31ec5762d[m
+Author: pedro <pedro.gc01@gmail.com>
+Date:   Mon Mar 14 03:02:03 2016 -0300
+
+    se creo la tabla users
+
+[33mcommit 03f276b056bf8588bdf73f394540ee39b5975e1d[m
+Author: pedro <pedro.gc01@gmail.com>
+Date:   Sun Mar 13 17:29:19 2016 -0300
+
+    primer commit proyecto en 0
